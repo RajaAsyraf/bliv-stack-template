@@ -392,7 +392,7 @@ const logout = () => {
             <div class="col-12 col-lg-auto mt-3 mt-lg-0">
               <ul class="list-inline list-inline-dots mb-0">
                 <li class="list-inline-item">
-                  Copyright © 2024 RentProps. All rights reserved.
+                  Copyright © 2024 BLIV Stack. All rights reserved.
                 </li>
               </ul>
             </div>
