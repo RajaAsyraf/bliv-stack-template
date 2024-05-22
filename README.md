@@ -1,0 +1,3 @@
+## About Rent Props
+
+Rent Props is a system to digitalize the rental business especially for events and props. There will be more feature on this platform. Stay tune...
