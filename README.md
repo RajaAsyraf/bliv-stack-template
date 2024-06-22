@@ -32,6 +32,17 @@ Before run this in your local, make sure you have PHP 8, Composer and Node.js (f
 5. Install JavaScript packages using `npm install`.
 6. Finally, you can build the frontend using `npm run build`.
 
+## Installation (with Docker)
+Ensure you have installed Docker (or Docker Desktop) in your local machine.
+1. Run `./vendor/bin/sail up -d` to spin up the docker container.
+2. You may use the available sail commands as [documented](https://laravel.com/docs/11.x/sail).
+3. You may also attach to the container to execute the laravel commands as below:
+ - Run `docker exec -it bliv-stack-template-laravel.test-1 bash`.
+ - Run `php artisan key:generate`.
+ - Run `php artisan migrate`.
+ - Run `npm i && npm run dev`.
+4. In browser, access the page via `http://localhost:80/`.
+
 
 ## Contribution
 Feel free to submit a PR to improve this and let me know if you have better idea for this repo. Thanks!
